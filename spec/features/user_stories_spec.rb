@@ -31,7 +31,6 @@ describe 'User Stories' do
       airport.land(plane)
     end
     expect { airport.land(plane) }.to raise_error 'Cannot land plane: airport full'
-
   end
 
 end
